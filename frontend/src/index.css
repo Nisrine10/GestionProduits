@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e9e7ed;
+}
+ form{
+  width: 40px;
+  min-height:50px ;
+  height: auto;
+  border-radius: 5px;
+  margin: 2% auto;
+  box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+
+ }
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+table {
+margin: 30px auto;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #540d72;
+  padding: 10px;
+  text-align: left;
+  
+}
+
+th {
+  background-color: #7b699b;
+}
+.my-table{
+  background-color: #f8f7f9;
+} 
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.EtudiantForm {
+  max-width: 600px;
+  padding: 20px;
+  background-color: #7b699b;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],input[type="number"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin: 10px;
+
+  
+}
+
+button {
+  background-color: #6027a5;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+h1{
+text-align: center; 
+color: #6027a5;
+}
+h2{
+  text-align: center; 
+  color: #000000;
+  }
+
+/* ImageComponent.css */
+.image-container {
+  width: 100%;
+ 
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 240px; /* Pour conserver les proportions originales de l'image */
+  display: block; /* Pour supprimer l'espace réservé en bas de l'image */
+}
+.btn-custom-primary {
+  background-color: #ff3877; /* Rose foncé ou une autre couleur de votre choix */
+  color: #fff; /* Texte en blanc pour contraster */
+  /* Autres styles personnalisés si nécessaire */
+}
+
+.btn-custom-danger {
+  background-color: #d7aefb; /* Mauve clair ou une autre couleur de votre choix */
+  color: #333; /* Texte en noir pour contraster */
+  /* Autres styles personnalisés si nécessaire */
+}
